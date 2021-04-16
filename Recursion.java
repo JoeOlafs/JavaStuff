@@ -4,7 +4,7 @@ public class Recursion{
           if(num == 1)
                total = 1;
           else
-               total = num + factorial(num - 1);
+               total = num * factorial(num - 1);
           return total;
      }
      public static void main(String[] args){
